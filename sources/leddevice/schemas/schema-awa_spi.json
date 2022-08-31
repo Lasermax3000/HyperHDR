@@ -5,11 +5,11 @@
 		"output": {
 			"type": "string",
 			"title":"edt_dev_spec_spipath_title",
-			"enum" : ["/dev/spidev0.0","/dev/spidev0.1","/dev/spidev1.0","/dev/spidev1.1"],
+			"enum" : ["/dev/spidev1.0","/dev/spidev1.1","/dev/spidev1.2","/dev/spidev1.3","/dev/spidev1.4"],
 			"options" : {
-				"enum_titles" : ["/dev/spidev0.0","/dev/spidev0.1","/dev/spidev1.0","/dev/spidev1.1"]
+				"enum_titles" : ["/dev/spidev1.0","/dev/spidev1.1","/dev/spidev1.2","/dev/spidev1.3","/dev/spidev1.4"]
 			},
-			"default" : "/dev/spidev0.0",
+			"default" : "/dev/spidev1.0",
 			"required" : true,
 			"propertyOrder" : 1
 		},
@@ -101,7 +101,7 @@
 			"options" : {
 				"enum_titles" : ["esp8266","esp32","standard"]
 			},
-			"default" : "esp8266",
+			"default" : "esp32",
 			"required" : true,
 			"propertyOrder" : 9
 		},
